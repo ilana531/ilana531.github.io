@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>MLP VILLIANS</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+<!-- 
+  CONFUSED: update results button <button id="surprise">like-minded extroverted people</button>
+	<header> 
+  CONFUSED: how to disable/update button after being chosen and enable it once quiz is restarted-->
+		<h1>Which MLP Villian Are YOU? </h1>
+		<p>...take this quiz to find out</p>
+	</header>
+
+	<main>
+<!-- FIRST QUESTION -->
+		<h2>do you change your personality based on who you’re around?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/one.jpg" alt="Wooden text blocks spelling out Real is Rare">
+        <br>
+        <button id="q1a1">yeah, kinda</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/two.jpg" alt="wooden scrabble blocks spelling out trust truth, placed under a glass frame">
+        <br>
+        <button id="q1a2">nah i'm me 100% throughout</button>
+      </div>
+
+    </div> 
+<!-- SECOND QUESTION -->
+    
+    <h2>What type of people do you usually get along with?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/three.jpg" alt="a depication of two silhoutte figures holding hands with blinds canes, the front one leading the other into a hole. Caption: The blind leading the blind.">
+        <br>
+        <button id="q2a1">like-minded extroverted people</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/four.jpeg" alt="Fluttershy, a baby yellow pegasus with pastel pink hair and dark teal eyes, with glasses on.">
+        <br>
+        <button id="q2a2">shy, quiet people</button>
+      </div>
+
+    </div> 
+<!-- THIRD QUESTION --> 
+    
+    <h2>Which season reasonates with you more?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/five.jpeg" alt="Three horses grazing on a fenced farm in the winter.">
+        <br>
+        <button id="q3a1">winter</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/seven.jpeg" alt="Pretty sunrise from a semi-covered view of trees and wildgrass on a farm.">
+        <br>
+        <button id="q3a2">spring</button>
+      </div>
+
+    </div> 
+
+
+
+
+
+
+
+
+    
+<!-- FOURTH QUESTION -->
+    <h2>which is more important to you?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/41.jpg" alt="arrangement of different citrus fruits, ranging from smallest (lime) to largest (grapefruit), left to right.">
+        <br>
+        <button id="q4a1">order (minimalism)</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/42.jpg" alt="a background of red bell peppers contrasted by one yellow bell pepper on top of them.">
+        <br>
+        <button id="q4a2">non-traditionalism (maximalism) </button>
+      </div>
+    </div>
+
+
+      
+<!-- QUESTION FIVE -->
+      <h2>what's your social style?</h2>
+      <div class="question">
+
+        <div class="answer-choice">
+          <img src="assets/51.jpg" alt="plain field with a stand-alone house in the center, far away from the viewer">
+          <br>
+          <button id="q5a1">keeping a distance, only giving information that's necessary
+</button>
+        </div>
+
+        <div class="answer-choice">
+          <img src="assets/52.jpg" alt="two 3d illustrated birds with quirky design.">
+          <br>
+          <button id="q5a2">expressive and curious, eventually opening up to people more than i intended</button>
+        </div>
+      </div>
+
+        
+<!-- QUESTION SIX -->
+        <h2>if you were a horsie, what would be more important?</h2>
+        <div class="question">
+
+          <div class="answer-choice">
+            <img src="assets/61.jpg" alt="a plastic trophy on a table.">
+            <br>
+            <button id="q6a1">success (#horseystrife)</button>
+          </div>
+
+          <div class="answer-choice">
+            <img src="assets/62.jpg" alt="people holding each other’s backs in a link fashion, showing support.">
+            <br>
+            <button id="q6a2">community(#horseylife)</button>
+          </div>
+        </div>
+           
+<!--  RESULTS, TEXT, RESTART BUTTON -->
+    <h2 id="result">Your result is...</h2>
+    <p id="resultext"></p>
+    <button id="restart">Restart Quiz</button>
+    
+    
+  </main>
+  </body>
+</html>
